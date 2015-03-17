@@ -5,7 +5,7 @@ A minimalistic OMG DDS example
 Two simple applications that demonstrate publishing and subscribing to DDS.
 
 ## Building
-A simple build.sh file is included that builds the project. Note that the build.sh file is written for OpenSplice.
+A simple build.sh file is included that builds the project. Note that the build.sh file is written for [OpenSplice](https://github.com/PrismTech/opensplice).
 
 ## Usage
 Run the following commands:
