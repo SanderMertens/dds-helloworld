@@ -12,10 +12,7 @@ int main(int argc, char *arv[])
     dds::pub::DataWriter<Hello::World> dw( dp, topic, topic.qos() );
 
     /* Create and write a sample */
-    Hello::World sample;
-    sample.id( 0 );
-    sample.value( "Hello World" );
-    dw << sample;
+    dw << Hello::World(0, "Hello World");
     
     return 0;
 }
